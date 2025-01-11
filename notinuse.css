@@ -132,12 +132,13 @@ span {
     margin-right: 5px;
 }
 
-.nav-cart {
+.nav-cart a {
     display: flex;
     align-items: center;
     font-size: 0.9rem;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* Responsiveness */

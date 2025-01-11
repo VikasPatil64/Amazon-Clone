@@ -139,6 +139,10 @@ span {
     font-weight: 700;
     cursor: pointer;
 }
+.cart-link{
+    color: white;
+    text-decoration: none;
+}
 
 /* Responsiveness */
 @media (max-width: 768px) {
@@ -252,7 +256,7 @@ span {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-.cart{
+.Addcart{
     background-color: rgb(31, 115, 205);
     color: white;
     align-items: center;
@@ -263,15 +267,12 @@ span {
     transition: background-color 0.3s;
     margin-top: 10px;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: 0.9rem;
     font-weight: 700;
     text-decoration: none;
     margin-left: 10px;
 }
-.cart-action {
+.Addcart-action {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,7 +285,7 @@ span {
     gap: 10px; /* Space between buttons and quantity */
 }
 
-.cart-action button {
+.Addcart-action button {
     background-color: #5291d4; /* Blue color for buttons */
     color: white;
     border: none;
@@ -295,11 +296,11 @@ span {
     transition: background-color 0.3s ease;
 }
 
-.cart-action button:hover {
+.Addcart-action button:hover {
     background-color: #075298; /* Darker blue on hover */
 }
 
-.cart-action span {
+.Addcart-action span {
     font-size: 18px;
     font-weight: bold;
     color: #333; /* Dark color for quantity */
@@ -308,12 +309,12 @@ span {
     text-align: center;
 }
 
-.cart-action button:disabled {
+.Addcart-action button:disabled {
     background-color: #d6d6d6; /* Disabled button style */
     cursor: not-allowed;
 }
 
-.cart:hover {
+.Addcart:hover {
     background-color: rgb(25, 96, 173); /* Darker blue on hover */
 }
 /* Box Image Styling */
